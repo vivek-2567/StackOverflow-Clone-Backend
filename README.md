@@ -32,21 +32,21 @@ Welcome to the StackOverflow Clone Backend repository! This project aims to repl
 
 #### Homepage
 
-```http
+```api
   GET /api
 ```
 Tells whether the backend is running. It gives a normal html page as output with some content in H1 tag.
 
 #### Get all Questions
 
-```http
+```api
   GET /api/open/all
 ```
 Get all the Questions, Answers and related comments.
 
 #### Get all Questions by a User
 
-```http
+```api
   GET /api/user/all
 ```
 Get all the Questions asked by a user.
@@ -56,7 +56,7 @@ Get all the Questions asked by a user.
 
 #### Get all Questions by a User
 
-```http
+```api
   GET /api/user/all
 ```
 Get all details of a question.
@@ -74,7 +74,7 @@ The following parameters in {`registerDetails`:
 
 #### Register User
 
-```http
+```api
   POST /api/user/register
 ```
 Register a new user.
@@ -92,7 +92,7 @@ The following parameters in {`registerDetails`:
 
 #### Login User
 
-```http
+```api
   POST /api/user/login
 ```
 
@@ -106,7 +106,7 @@ The following parameters in {`loginData`:
 
 #### Update User
 
-```http
+```api
   PATCH /api/user/update
 ```
 
@@ -124,7 +124,7 @@ The following parameters in {`userDetails`:
 
 #### Delete User
 
-```http
+```api
   DELETE /api/user/delete
 ```
 
@@ -136,7 +136,7 @@ The following parameters in {`userDetails`:
 
 #### Create Question
 
-```http
+```api
   POST /api/question/post
 ```
 
@@ -155,7 +155,7 @@ The following parameters in {`questionData`:
 
 #### Update Questions
 
-```http
+```api
   PATCH /api/question/update
 ```
 
@@ -173,7 +173,7 @@ The following parameters in {`questionData`:
 
 #### Delete Question
 
-```http
+```api
   DELETE /api/question/delete
 ```
 
@@ -193,7 +193,7 @@ The following parameters in {`deleteDetails`:
 
 #### Create Answers
 
-```http
+```api
   POST /api/question/post
 ```
 
@@ -212,7 +212,7 @@ The following parameters in {`answerDetails`:
 
 #### Update Answers
 
-```http
+```api
   PATCH /api/answer/update
 ```
 
@@ -230,7 +230,7 @@ The following parameters in {`answerDetails`:
 
 #### Delete Answer
 
-```http
+```api
   DELETE /api/answer/delete
 ```
 
@@ -248,7 +248,7 @@ The following parameters in {`deleteData`:
 
 #### Create Comments
 
-```http
+```api
   POST /api/comment/post
 ```
 
@@ -267,7 +267,7 @@ The following parameters in {`commentDetails`:
 
 #### Update Comments
 
-```http
+```api
   PATCH /api/comment/update
 ```
 
@@ -285,7 +285,7 @@ The following parameters in {`commentDetails`:
 
 #### Delete Comment
 
-```http
+```api
   DELETE /api/comment/delete
 ```
 
@@ -303,7 +303,7 @@ The following parameters in {`deleteData`:
 
 #### Search Questions
 
-```http
+```api
   POST /api/open/search
 ```
 
