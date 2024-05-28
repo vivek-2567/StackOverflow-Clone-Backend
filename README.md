@@ -1,6 +1,6 @@
-<img src="https://socialify.git.ci/vivek-2567/StackOverflow-Clone-Backend/image?font=Rokkitt&name=1&owner=1&pattern=Signal&theme=Dark" alt="StackOverflow-Clone-Backend" width="640" height="320" />
 
 # StackOverflow Clone Backend
+<img src="https://socialify.git.ci/vivek-2567/StackOverflow-Clone-Backend/image?font=Rokkitt&name=1&owner=1&pattern=Signal&theme=Dark" alt="StackOverflow-Clone-Backend" />
 
 Welcome to the StackOverflow Clone Backend repository! This project aims to replicate the core functionalities of the popular Q&A platform, StackOverflow, providing a robust backend service to support user authentication, question, answer and comments management and more. Built with scalability and performance in mind, this backend is designed to handle a large volume of users and interactions seamlessly.
 
